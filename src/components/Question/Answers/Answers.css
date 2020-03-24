@@ -1,0 +1,26 @@
+.answer {
+    width: 60%;
+    background-color: #fff;
+    padding: 5px 15px;
+    border: none;
+    font-family: 'Cormorant Infant', sans-serif;
+    border-radius: 50px;
+    color: #b6b6b8;
+    font-weight: 500;
+    font-size: 12pt;
+    margin-top: 10px;
+    box-shadow: 0px 4px 1px 1px rgba(0, 0, 0, 0.15);
+    transition-duration: .3s;
+}
+.answer:hover{
+
+}
+
+.answer.good{
+    background: green;
+    color: #ffffff;
+}
+.answer.error{
+    background: red;
+    color: #ffffff;
+}

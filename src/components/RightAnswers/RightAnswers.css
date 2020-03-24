@@ -1,0 +1,17 @@
+.rightanswers{
+    width: 100%;
+    flex: 0 0 auto;
+    font-size: 18px;
+}
+.right-answer{
+    display: flex;
+    justify-content: space-between;
+}
+.right-answer span:first-child{
+    width: 70%;
+}
+.right-answer span:last-child{
+    text-decoration: underline;
+    width: 30%;
+    text-align: right;
+}
